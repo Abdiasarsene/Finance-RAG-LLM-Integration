@@ -1,0 +1,36 @@
+# config/chains.yaml
+chains:
+  rag_chain:
+    description: "Classic RAG workflow: retrieval + LLM + ranking + output parsing"
+    active: true
+    fallback_providers:
+      - openai
+      - anthropic
+      - mistral
+    max_tokens: 2000
+    temperature: 0.2
+    top_p: 0.9
+    max_retries: 2
+
+  summary_chain:
+    description: "Extracts & synthesizes key points from a report"
+    active: true
+    fallback_providers:
+      - openai
+      - mistral
+    max_tokens: 1500
+    temperature: 0.1
+    top_p: 0.95
+    max_retries: 1
+
+  reporting_chain:
+    description: "Aggregates outputs from multiple LLMs for dashboards or reports"
+    active: true
+    fallback_providers:
+      - openai
+      - anthropic
+      - mistral
+    max_tokens: 3000
+    temperature: 0.2
+    top_p: 0.9
+    max_retries: 2

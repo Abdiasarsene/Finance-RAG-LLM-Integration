@@ -1,0 +1,8 @@
+# config/settings.yaml
+settings:
+  default_provider: "openai"
+  default_max_tokens: 2000
+  timeout_seconds: 30
+  max_concurrent_requests: 5
+  logging_level: "INFO"
+  fallback_strategy: "round_robin"  # could be 'sequential', 'round_robin', 'priority'

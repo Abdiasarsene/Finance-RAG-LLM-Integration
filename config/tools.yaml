@@ -1,0 +1,21 @@
+# config/tools.yaml
+tools:
+  market_data_tool:
+    file: "tools/market_data_tool.py"
+    active: true
+    endpoint: "https://api.marketdata.com/v1/prices"
+    api_key_env: "MARKETDATA_API_KEY"
+    timeout: 10
+
+  report_parser_tool:
+    file: "tools/report_parser_tool.py"
+    active: true
+    parse_mode: "financial"
+    max_size: 5_000
+
+  compliance_api_tool:
+    file: "tools/compliance_api_tool.py"
+    active: true
+    endpoint: "https://api.compliancecheck.com/v2/validate"
+    api_key_env: "COMPLIANCE_API_KEY"
+    retry: 2

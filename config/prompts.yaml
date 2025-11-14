@@ -1,0 +1,17 @@
+# config/prompts.yaml
+prompts:
+  qa_prompt:
+    file: "prompts/qa_prompt.py"
+    template_name: "QA_PROMPT"
+    version: "v1"
+    active: true
+    max_tokens: 1000
+    temperature: 0.2
+
+  summary_prompt:
+    file: "prompts/summary_prompt.py"
+    template_name: "SUMMARY_PROMPT"
+    version: "v1"
+    active: true
+    max_tokens: 1500
+    temperature: 0.1
