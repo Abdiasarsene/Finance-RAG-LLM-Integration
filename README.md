@@ -1,10 +1,10 @@
 # **Finance RAG : 03 – LLM Integration**
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-[![Docker](https://img.shields.io/badge/Docker-Orchestrated-blue?logo=docker)
-[![LangChain](https://img.shields.io/badge/LangChain-Agents-yellow?logo=langchain)
-[![LLM](https://img.shields.io/badge/LLM-Integration-green?logo=openai)
-[![Pre-commit](https://img.shields.io/badge/Pre--commit-hooks-critical?logo=git)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Docker](https://img.shields.io/badge/Docker-Orchestrated-blue?logo=docker)
+![LangChain](https://img.shields.io/badge/LangChain-Agents-yellow?logo=langchain)
+![LLM](https://img.shields.io/badge/LLM-Integration-green?logo=openai)
+![Pre-commit](https://img.shields.io/badge/Pre--commit-hooks-critical?logo=git)
 
 "*This module represents the **third component** of the Finance-RAG architecture and is dedicated to **LLM integration**, delivering structured reasoning, modular orchestration, and auditable workflows. The **second stage is already complete**:
 👉 [Finance-RAG-Retriever-Layer](https://github.com/Abdiasarsene/Finance-RAG-Retriever-Layer)
